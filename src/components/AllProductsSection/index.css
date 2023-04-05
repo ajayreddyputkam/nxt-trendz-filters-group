@@ -1,0 +1,140 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.no-products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-container {
+    width: 70%;
+  }
+}
+
+.no-products-image {
+  width: 60%;
+  max-width: 600px;
+}
+
+.no-products-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.no-products-message {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-heading {
+    font-size: 24px;
+  }
+  .no-products-message {
+    font-size: 16px;
+  }
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-container {
+    width: 70%;
+  }
+}
+
+.failure-image {
+  width: 60%;
+  max-width: 600px;
+}
+
+.failure-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.failure-message {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-heading {
+    font-size: 24px;
+  }
+  .failure-message {
+    font-size: 16px;
+  }
+}
